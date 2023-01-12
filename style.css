@@ -1,0 +1,126 @@
+:root{
+  --primaryColor : #002939;
+  --secondaryColor : #DDC190;
+
+  --mainFont : 'Open Sans', sans-serif;
+  --headingFont : 'Merriweather', serif;
+}
+*{
+  box-sizing: border-box !important;
+}
+
+body{
+  font-family: var(--mainFont);
+}
+
+.heading{
+  font-family: var(--headingFont);
+  font-size: 24px;
+  font-weight: 700;
+}
+.subheading{
+  font-weight: 300;
+}
+.section-margin{
+  margin-top: 100px;
+}
+
+/* Navbar */
+.navbar-brand{
+  font-family: var(--headingFont);
+  font-weight: 900;
+}
+.navbar{
+  background-color: var(--primaryColor);
+}
+.navbar-brand span{
+  color: var(--secondaryColor);
+}
+.nav-link{
+  font-family: var(--headingFont);
+}
+.nav-link.active{
+  font-weight: 700;
+  color: var(--secondaryColor) !important;
+}
+.icons-home i{
+  font-size: 1.8rem;
+  color: var(--secondaryColor);
+}
+
+/* Home */
+
+.home{
+  background-color: var(--primaryColor);
+  height: 650px;
+  padding: 10rem;
+}
+.home .heading{
+  color: var(--secondaryColor);
+}
+.btn-home .btn-buy{
+  background-color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+.btn-home .btn-learn{
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+/* service */
+.row {
+  margin: 8px -15px;
+  margin-bottom: -90px;
+}
+
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  margin-top: 70px;
+}
+
+.service .btn-buy{
+  background-color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  width: 100%;
+  font-weight: 700;
+}
+
+.service .btn-chart{
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+.content {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  padding: 10px;
+  border-radius: 12px ;
+  border: 6px solid var(--secondaryColor);
+}
+.bxs-cart{
+  margin-left: 10px;
+  width: 10px;
+  font-size: 20px;
+
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
